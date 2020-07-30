@@ -1,0 +1,31 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+.three-col-container
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    .col-1,.col-2,.col-3,.full-text
+        flex: 1
+        min-width: 350px
+        padding: 20px 30px
+    .col-1
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap')
+        font-family: 'Montserrat', sans-serif
+        text-align: center
+        h1
+            display: block
+            font-size: 50px
+        img
+            display: none
+            object-fit: cover
+            max-width: 100%
+    .col-2,.col-3,.full-text
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap')
+        font-family: 'Roboto', sans-serif
+    .col-2,.col-3
+        display: block
+    .full-text
+        display: none
