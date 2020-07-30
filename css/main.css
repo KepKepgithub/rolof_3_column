@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
-* {
+.three-col-container, .three-col-container * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -47,11 +47,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.three-col-container .col-2, .three-col-container .col-3 {
+.two-col-text .col-2, .two-col-text .col-3 {
   display: block;
 }
 
-.three-col-container .full-text {
+.two-col-text .full-text {
   display: none;
+}
+
+.text-block .col-2, .text-block .col-3 {
+  display: none;
+}
+
+.text-block .full-text {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */

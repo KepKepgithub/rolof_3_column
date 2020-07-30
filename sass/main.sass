@@ -1,8 +1,7 @@
-*
+.three-col-container, .three-col-container *
     padding: 0
     margin: 0
-    box-sizing: border-box
-
+    box-sizing: border-box    
 .three-col-container
     display: flex
     flex-wrap: wrap
@@ -25,7 +24,15 @@
     .col-2,.col-3,.full-text
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap')
         font-family: 'Roboto', sans-serif
+        
+.two-col-text
     .col-2,.col-3
         display: block
     .full-text
         display: none
+
+.text-block
+    .col-2,.col-3
+        display: none
+    .full-text
+        display: block
